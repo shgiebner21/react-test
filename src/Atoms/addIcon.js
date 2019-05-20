@@ -15,13 +15,9 @@ const styles = theme => ({
   })
   
 function AddIcon(props) {
-    const { textLabel, color, variant } = props
+    const { onClick } = props
 
-      return (
-          <AddPhoto >
-          </AddPhoto>
-        )
-
+      return <AddPhoto onClick={onClick} />
 }
 
 export default withStyles(styles)(AddIcon)

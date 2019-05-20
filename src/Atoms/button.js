@@ -15,11 +15,11 @@ const styles = theme => ({
 
 
 function NewButton(props) {
-      const { textLabel, color, variant } = props
+      const { textLabel, color, variant, onClick } = props
 
         return (
             <Button variant={variant} color={color}
-              onClick={e => console.log(`click ${textLabel}`)}>
+              onClick={onClick}>
             {textLabel}
             </Button>
           )
