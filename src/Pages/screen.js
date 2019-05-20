@@ -5,6 +5,7 @@ import AddIcon from '../Atoms/addIcon'
 import NewButton from '../Atoms/button'
 import NewTextField from '../Atoms/textField'
 import SwitchLabel from '../Atoms/switchControl'
+import ButtonAppBar from '../Molecules/appBar'
 
 
 export default class Screen extends Component {
@@ -32,6 +33,8 @@ export default class Screen extends Component {
 
         return (
           <div>
+            <ButtonAppBar />
+
             <div style={{ marginBottom: '10px' }} >
             <ImageAvatar />
             <AddIcon  />
