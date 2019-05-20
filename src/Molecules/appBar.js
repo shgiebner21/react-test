@@ -23,14 +23,14 @@ const styles = {
 
 
 function ButtonAppBar(props) {
-  const { classes, onMenuClick } = props;
+  const { classes, onClick } = props;
   return (
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
           <IconButton className={classes.menuButton} color="inherit" 
             aria-label="Menu"
-            onClick={e => console.log('menu button clicked')}>
+            onClick={onClick}>
             <MenuIcon />
           </IconButton>
   

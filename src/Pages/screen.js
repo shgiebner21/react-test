@@ -5,7 +5,6 @@ import NewButton from '../Atoms/button'
 import NewTextField from '../Atoms/textField'
 import SwitchLabel from '../Atoms/switchControl'
 
-
 export default class Screen extends Component {
   constructor(props) {
     super(props)
