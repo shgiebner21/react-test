@@ -18,9 +18,6 @@ const styles = {
   };
 
   function ImageAvatar(props) {
-
-      console.log('image props, ', props)
-
         return (
             <Grid container justify="center" alignItems="center">
             <Avatar alt="Stephen Giebner" src={image} style={styles.bigAvatar} />
